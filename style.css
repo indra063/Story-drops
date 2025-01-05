@@ -28,11 +28,11 @@ h1{font-weight: 900 !important;}
 h2{font-weight: 300 !important; font-size: 1.3em !important;}
 
 a { color: #FF4433; text-decoration: none;}
-a, a:hover, a:visited, a:active{color: #EAD1DC}
+a, a:hover, a:visited, a:active{color: #8B5A5A}
 a:hover{text-decoration:underline;}
 #close-button { 
   padding: 10px 20px;
-  border: 1px solid #EAD1DC;
+  border: 1px solid #8B5A5A;
   line-height: 60px;
   border-radius: 16px;
 }
