@@ -741,7 +741,7 @@ function createLogoTexture() {
   
   // Load and draw SVG
   const img = new Image();
-  const blob = new Blob([document.querySelector('#platform-logo').outerHTML], {type: 'image/svg+xml'});
+  const blob = new Blob([document.querySelector('#Background(2).svg').outerHTML], {type: 'image/svg+xml'});
   const url = URL.createObjectURL(blob);
   
   return new Promise((resolve) => {
