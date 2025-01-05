@@ -28,11 +28,11 @@ h1{font-weight: 900 !important;}
 h2{font-weight: 300 !important; font-size: 1.3em !important;}
 
 a { color: #FF4433; text-decoration: none;}
-a, a:hover, a:visited, a:active{color: #FE9A4C}
+a, a:hover, a:visited, a:active{color: #EAD1DC}
 a:hover{text-decoration:underline;}
 #close-button { 
   padding: 10px 20px;
-  border: 1px solid #FE9A4C;
+  border: 1px solid #EAD1DC;
   line-height: 60px;
   border-radius: 16px;
 }
@@ -117,7 +117,7 @@ a:hover{text-decoration:underline;}
 }
 
 #content-background {
-  background-color: #214E81;
+  background-color: #CFE2F3;
   padding: 15px 20px;
   border-radius: 16px;
 }
