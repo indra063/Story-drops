@@ -736,7 +736,7 @@ function createLogoTexture() {
   const ctx = canvas.getContext('2d');
   
   // Create base color
-  ctx.fillStyle = '#0048b2';
+  ctx.fillStyle = '#999999';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   
   // Load and draw SVG
@@ -802,7 +802,7 @@ async function createGround() {
   const logoTexture = await createLogoTexture();
   
   const topMaterial = new THREE.MeshStandardMaterial({
-    color: 0x0048b2,
+    color: 0x999999,
     metalness: 0.95,
     roughness: 0.05,
     envMapIntensity: 2,
@@ -810,7 +810,7 @@ async function createGround() {
   });
 
   const sideMaterial = new THREE.MeshStandardMaterial({
-    color: 0x0048b2,
+    color: 0x444444,
     metalness: 0.95,
     roughness: 0.05,
     envMapIntensity: 2
