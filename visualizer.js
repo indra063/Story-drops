@@ -221,7 +221,7 @@ function onMouseMove(event) {
       const sphereIndex = spheres.indexOf(hit);
       if (sphereIndex !== -1 && sphereData[sphereIndex]) {
         const amount = sphereData[sphereIndex].amount;
-        tooltipDiv.textContent = `${amount.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: amount > 1 ? 0 : 8})} S`;
+        tooltipDiv.textContent = `${amount.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: amount > 1 ? 0 : 8})} IP`;
         tooltipDiv.style.display = 'block';
         tooltipDiv.style.left = `${event.clientX + 15}px`;
         tooltipDiv.style.top = `${event.clientY + 15}px`;
