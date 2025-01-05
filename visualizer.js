@@ -278,15 +278,15 @@ function createRoomEnvironment() {
 
   // Define colors
   const darkBlue = '#000';
-  const brownish = '#9FC5E8';
-  const peach = '#EAD1DC';
+  const blueish = '#9FC5E8';
+  const pink = '#D5A6BD';
 
   // Create a more environment-map friendly gradient
   const gradientHeight = canvas.height;
   const gradient = ctx.createLinearGradient(0, 0, 0, gradientHeight);
   gradient.addColorStop(1, darkBlue);    // Top
-  gradient.addColorStop(0.5, brownish);  // Middle
-  gradient.addColorStop(0, peach);       // Bottom
+  gradient.addColorStop(0.5, blueish);  // Middle
+  gradient.addColorStop(0, pink);       // Bottom
   
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -410,7 +410,7 @@ function createMainStatsTexture() {
     const xAdjustment = 6;
     const yAdjustment = canvas.height / 35;
     ctx.fillStyle = 'rgba(255, 255, 255, 1)';
-    ctx.fillText(`Volume: ${totalSent.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 4})} S`, canvas.width/2 + xAdjustment, canvas.height/4 - yAdjustment);
+    ctx.fillText(`Volume: ${totalSent.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 4})} IP`, canvas.width/2 + xAdjustment, canvas.height/4 - yAdjustment);
     ctx.fillText(`Balls/Queue: ${ballCount}/${currentQueueCount}`, canvas.width/2 + xAdjustment, canvas.height / 2 - yAdjustment);
     ctx.fillText(`TPS: ${tps}`, canvas.width/2 + xAdjustment, canvas.height * 3/4 - yAdjustment);
     
