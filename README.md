@@ -1,3 +1,3 @@
 # sonic-drops
 
-Physical real-time simulation of the Sonic network transactions
+Physical real-time simulation of the Story network transactions
