@@ -500,7 +500,7 @@ function createSelectedTxTexture() {
     ctx.fillText('Selected', canvas.width/2 + xAdjustment, canvas.height/3);
     
     if (selectedSphere) {
-      const amount = `${selectedSphere.amount.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: selectedSphere.amount > 1 ? 0 : 8})} S`;
+      const amount = `${selectedSphere.amount.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: selectedSphere.amount > 1 ? 0 : 8})} IP`;
       
       ctx.font = '24px Arial';
       ctx.fillStyle = window.isStatsHovered ? '#66d9ff' : '#4A9EFF';
