@@ -26,8 +26,8 @@ window.sphereQueue = sphereQueue;
 // TX settings
 const RPC_URL = "https://odyssey.storyrpc.io";
 const BLOCK_EXPLORER = "https://odyssey.storyscan.xyz/tx";
-const MIN_AMOUNT = 0.1; // Min Sonic
-const MAX_AMOUNT = 100000; // Max Sonic
+const MIN_AMOUNT = 0.1; // Min Story
+const MAX_AMOUNT = 100000; // Max Story
 const TPS_WINDOW = 30000; // 30 seconds
 
 // Sphere settings
@@ -278,8 +278,8 @@ function createRoomEnvironment() {
 
   // Define colors
   const darkBlue = '#000';
-  const brownish = '#492927';
-  const peach = '#a97552';
+  const brownish = '#9FC5E8';
+  const peach = '#EAD1DC';
 
   // Create a more environment-map friendly gradient
   const gradientHeight = canvas.height;
