@@ -24,7 +24,7 @@ const isVisibilitySupported = typeof document.hidden !== "undefined";
 window.sphereQueue = sphereQueue;
 
 // TX settings
-const RPC_URL = "https://mainnet.storyrpc.io;
+const RPC_URL = "https://mainnet.storyrpc.io";
 const BLOCK_EXPLORER = "https://storyscan.xyz/tx";
 const MIN_AMOUNT = 0.1; // Min Story
 const MAX_AMOUNT = 100000; // Max Story
